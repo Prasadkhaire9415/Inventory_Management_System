@@ -1,0 +1,58 @@
+﻿body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: darkmagenta;
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 70px;
+    width: 130px;
+}
+
+.navbar {
+    margin-left: auto;
+    background-color: white !important;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.content {
+    width: 100%;
+    max-width: 1200px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    padding-bottom: 60px;
+}
+
+footer {
+    background-color: darkmagenta;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+    color: black;
+    background-color: white;
+}

@@ -12,3 +12,11 @@ packages/
 
 # Ignore other temporary files
 *.log
+
+# Ignore database files
+*.mdf
+*.ldf
+
+# Ignore everything in the App_Data folder
+InventoryManagementSystem1/App_Data/
+

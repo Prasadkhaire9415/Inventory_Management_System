@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title - Login</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/Login.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        @RenderBody()
+        @if (ViewBag.IsLoginView != null && (bool)ViewBag.IsLoginView)
+        {
+            <div class="text-center">
+                <p>Don't have an account? <a href="@Url.Action("Register", "Account")">Create one here</a></p>
+            </div>
+        }
+    </div>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>
