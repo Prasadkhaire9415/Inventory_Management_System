@@ -1,0 +1,14 @@
+# Ignore Visual Studio files and folders
+.vs/
+*.user
+*.suo
+
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore NuGet packages
+packages/
+
+# Ignore other temporary files
+*.log
